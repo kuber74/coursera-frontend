@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
 }
 section {
     padding: 5px;
@@ -18,6 +19,7 @@ p {
     border-left: 1px solid black;
     border-bottom: 1px solid black;
     text-align: center;
+    font-size: large;
 }
 
 #p1 {
@@ -38,8 +40,6 @@ div {
     padding-left: 5px;
     padding-bottom: 5px;
     float: left;
-    
-
 }
 
 @media (min-width:992px){
