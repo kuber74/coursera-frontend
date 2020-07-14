@@ -1,10 +1,58 @@
 body {
     font-size: 16px;
-    color: #fff;
-    background-color: #61122f;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Playfair Display', serif;
   }
 
-h1 {
-    text-align: center;
+.container {
+  max-width: 90%;
 }
+
+/** Header **/
+
+#header-navbar {
+  background-color: gray;
+  padding:0;
+  padding-top: 8px;
+}
+
+#toggler {
+  margin-right: 5vw;
+}
+.navbar-brand h2 {
+  font-weight: 900;
+  padding-left: 5vw;
+}
+
+#nav-list a {
+  background-color: white;
+  border: 1px solid black;
+  width: 100%;
+  color: black;
+  font-weight: 500;
+}
+#nav-list a:hover {
+  background: gray;
+}
+
+/** End of Header **/
+
+/** Content **/
+
+.menu-title {
+  margin: 3%;
+  font-weight: 700;
+}
+
+.content {
+  background-color: gray;
+}
+
+.content-title {
+  margin: 15px;
+  font-weight: 600;
+}
+
+p.main-content {
+  font-weight: 400;
+}
+/** End of Content **/
